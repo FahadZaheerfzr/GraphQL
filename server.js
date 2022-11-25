@@ -1,7 +1,8 @@
-const express = require('express');
-const app = express();
+const {ApolloServer} = require('apollo-server');
 
-app.listen(5001, () => {
-    console.log("Server started on port 5001");
+const server = new ApolloServer({typeDefs, resolvers});
+
+server.listen().then(({url}) => {
+    console.log(`Server is running at ${url}`)
 });
 
