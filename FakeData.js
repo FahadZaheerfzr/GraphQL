@@ -4,7 +4,7 @@ const UserList = [
         name: 'John Doe',
         username: 'johndoe',
         age: 25,
-        nationality: 'United States'
+        nationality: 'US'
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const UserList = [
         name: 'John Smith',
         username: 'johnsmith',
         age: 30,
-        nationality: 'United Kingdom'
+        nationality: 'UK'
     },
     {
         id: 4,
