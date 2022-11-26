@@ -6,9 +6,9 @@ const resolvers = {
         users(){
             return UserList;
         },
-        user(_, args){
-            const {id} = args;
-            return _.find(UserList, {id});
+        user(parent, args){
+            const id = args.id;
+            return _.find(UserList, {id: Number(id)});
         }
 
     }
