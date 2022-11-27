@@ -46,7 +46,7 @@ const UserList = [
                 nationality: 'Scotland'
             }
         ],
-        favoriteMovies:[4,3]
+        favoriteMovies:[1,4,3]
     },
     {
         id: 4,
@@ -54,7 +54,7 @@ const UserList = [
         username: 'janesmith',
         age: 28,
         nationality: 'Poland',
-        favoriteMovies:[3,2]
+        favoriteMovies:[2,3,2]
     },
     {
         id: 5,
